@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    z-index: 100;
+}
+
+.navbar {
+  background-color: #ffffff;
+    padding: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-spacing: 50px;
+    text-align: center;
+}
+
+.nav_logo img {
+    width: 250px; 
+}
+
+.nav_items {
+  list-style-type: none;
+  margin-right: 35%;
+  padding: 0;
+}
+
+.nav_item {
+  display: inline;
+}
+
+
+.nav_link {
+    color: #000000;
+    text-decoration: none;
+    margin-right: 15  px;
+}
+
+.button_nav {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.nav_link:hover {
+    color: rgb(0, 153, 255);
+}
+
+.button_nav:active {
+    transform: scale(0.98);
+}
+
+.button {
+    padding: 6px 24px;
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.button:active {
+    transform: scale(0.98);
+}
+
+    
+.button:active {
+    transform: scale(0.98);
+}
+
+/*contact codes*/
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 500px;
+  width: 100%;
+  background: #fff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  border-top: 2px solid #fff; 
+}
+
+
+@media (max-width: 700px) {
+    .container .text{
+      font-size: 30px;
+    }
+    .container form{
+      padding: 10px 0 0 0;
+    }
+    .container form .form-row{
+      display: block;
+    }
+    form .form-row .input-data{
+      margin: 35px 0!important;
+    }
+    .submit-btn .input-data{
+      width: 40%!important;
+    }
+}

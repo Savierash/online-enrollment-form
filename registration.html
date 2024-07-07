@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"content="width=device-width,initial-scale=1.0">
+        <title>Online Enrollment Registration for Upcoming First Year Students</title>
+        <link rel="stylesheet" href="registration.css"> 
+        
+        <!--icons-->
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+
+    <body>  
+        <header>
+            <nav class="navbar">
+                <a href="#" class="nav_logo">
+                    <img src="img/PHINMA.png" alt="University of Pangasinan">
+                </a>
+                
+                <ul class="nav_items">
+                    <li class="nav_item">
+                    <a href="main page.html" class="nav_link">Home</a>
+                    <a href="registration.html" class="nav_link">Registration</a>
+                    <a href="about.html" class="nav_link">About</a>
+                    <a href="contact.html" class="nav_link">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Enrollment Process</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!--steps-->
+  <section class="container1">
+    <h2>Official Enrollment Process</h2>
+    
+    <div class="steps-container">
+        <div class="step enrollment-step">
+            <h2>Marketing Department</h2>
+            <ol>
+                <li>Fill up Student Permanent Record (SPR) & Info Sheet</li>
+                <li>Verification of Required Documents (if available):
+                    <ul>
+                        <li>PSA Birth Certificate</li>
+                        <li>High School/Senior High School Report Card (F138)</li>
+                        <li>Form 137 (may follow)</li>
+                    </ul>
+                </li>
+            </ol>
+        </div>
+
+        <div class="step enrollment-step">
+            <h2>Registrar and Finance</h2>
+            <ol>
+                <li>Encoding of SPR</li>
+                <li>Admission</li>
+                <li>Submission of Requirement (if available):
+                    <ul>
+                        <li>PSA Birth Certificate</li>
+                        <li>High School/Senior High School Report Card (F138)</li>
+                        <li>Form 137 (may follow)</li>
+                    </ul>
+                </li>
+                <li>Downpayment
+                    <ul>
+                        <li>College Non-scholars: can pay P1,000.00 for registration fee</li>
+                        <li>College Scholars: can pay P750.00 for registration fee</li>
+                        <li>SHS: can pay P500.00 for registration fee</li>
+                    </ul>
+                </li>
+                <li>Issuance of Official Receipt (OR) of down payment.</li>
+            </ol>
+        </div>
+
+        <div class="step enrollment-step">
+            <h2>Marketing Department</h2>
+            <ol>
+                <li>Verification of issued OR number</li>
+                <li>Printing of ORF (Official Registration Form) or COM (Certificate of Matriculation)</li>
+                <li>Join designated Facebook groups and fill up ID Application Form</li>
+            </ol>
+        </div>
+    </div>
+</section>
+
+
+    
+     <!-- Enrollment Form Section -->
+  <section class="container">
+    <header>Online Enrollment Form</header>
+    <form action="#" class="form" id="enrollmentForm">
+      <div class="input-box">
+        <label for="fullName">Full Name</label>
+        <input type="text" id="fullName" placeholder="Enter full name" required />
+      </div>
+      <div class="input-box">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" placeholder="Enter email address" required />
+      </div>
+      <div class="input-box">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" placeholder="Enter phone number" required />
+      </div>
+      <div class="input-box">
+        <label for="subject">Subject</label>
+        <input type="subject" id="subject" placeholder="Subject" required />
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <!-- Success Popup -->
+  <div class="popup" id="successPopup">
+    <div class="popup-content">
+      <span class="close-btn" onclick="closePopup()">&times;</span>
+      <p>Form submitted successfully!</p>
+    </div>
+  </div>
+
+  <!--javascript code-->
+  <script scr="registration.js"></script>
+
+</body>
+</html>
